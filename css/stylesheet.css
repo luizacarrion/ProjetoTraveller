@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:wght@200&family=Quicksand&display=swap');
+
+
+
+.container{
+    width: 700px;
+    height: auto;
+    margin: 80px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+
+html{
+    font-family:Montserrat;
+    background-image: url(https://i.pinimg.com/564x/33/ca/30/33ca301009a341c84fa34ea1c556ff5b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: aliceblue;
+
+}
+h3{
+    background-color:rgb(180, 91, 27);
+    color: aliceblue;
+    width: 600px;
+    height: 200;
+    
+}
+p{
+   background-color: antiquewhite;
+    font-weight: 400;
+    color: black;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Traveller</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+<h1>Guliver Traveller</h1>
+<h1></h1>
+</head>
+<h1>Encontrou um ponto turistico bacana? conta pra gente...</h1>
+<body>
+    <div class="container"> 
+<!-- SUGESTÔES DE PONTOS TURISTICOS -->
+<h2>Novos Pontos Turísticos</h2>
+<p>
+<form name="dados" id="dados" action="" method="post">
+    <div style="background-color: antiquewhite;" class="campos">
+        <label for="nome">Nome do ponto turístico:</label><input type="text" id="nome">
+    </div>
+</p>
+<!-- Localização -->
+<h3>Onde fica?</h3>
+<p><div class="campos">
+<form name="local" id="local" action="">
+
+    Endereço:<input type="text">
+    Cidade:<input list="uf" id="estados
+    "class="lista"><datalist id="uf">
+        <option value="(AC)">Acre</option>
+        <option value="(AL)">Alagoas </option>
+        <option value="(AP)">Amapá </option>
+        <option value="(AM)">Amazonas </option>
+        <option value="(BA)">Bahia </option>
+        <option value="(CE)">Ceará (CE)</option>
+        <option value="(DF)">Distrito Federal </option>
+        <option value="(ES)">Espírito Santo </option>
+        <option value="(GO)">Goiás </option>
+        <option value="(MA)">Maranhão</option>
+        <option value="(MT)">Mato Grosso </option>
+        <option value="(MS)">Mato Grosso do Sul </option>
+        <option value="(MG)">Minas Gerais </option>
+        <option value="(PA">Pará</option>
+        <option value="(PB)">Paraíba</option>
+        <option value="(PR)">Paraná </option>
+        <option value="(PE)">Pernambuco </option>
+        <option value="(PI)">Piauí </option>
+        <option value="(RJ)">Rio de Janeiro </option>
+        <option value="(RN)">Rio Grande do Norte </option>
+        <option value="(RS)">Rio Grande do Sul </option>
+        <option value="(RO)">Rondônia </option>
+        <option value="(RR)">Roraima </option>
+        <option value="(SC)">Santa Catarina </option>
+        <option value="(SP)">São Paulo </option>
+        <option value="(SE)">Sergipe </option>
+        <option value="(TO)">Tocantins </option>
+    </p>
+    </datalist></div>
+    
+    <h3>Qual a data que você conheceu esse lugar?</h3>
+   <p>
+<label for="data">Data</label>
+<input type="date" id="data">
+   </p>
+
+   <h3>A época da sua viagem foi em qual periodo?</h3>
+   <p>
+<input type="radio" name="Baixa Temporada">
+<label for="first">Baixa Temporada</label></label>
+<input type="radio" name="Alta Temporada">
+<label for="second">Alta Temporada</label></label>
+</p>
+
+<h3>Se pudesse dar uma avaliação para esse Ponto Turistico, qual seria?</h3>
+<p>
+<label for="valor">Avaliação</label>
+<input type="range" id="Avaliação">
+</p>
+
+<h3>Qual a estimativa de tempo para entrar nesse Ponto Turistico</h3>
+<p>
+<input type="radio" name="1/2 horas">
+<label for="first">1/2 horas</label></label>
+<input type="radio" name="3/4 horas">
+<label for="second">3/4 horas</label></label>
+</p>
+
+<h3>Ingresso</h3>
+<p>
+<input type="radio" name="Gratuito">
+<label for="first">Gratuito</label></label>
+<input type="radio" name="Pago">
+<label for="second">Pago</label></label>
+</p>
+<p>
+    Qual foi o valor?:<input type="text">
+</p>
+ 
+<h3>Sobre você:</h3>
+<div>
+    <div style="background-color: antiquewhite;" class="em__linha">
+        <label for="conttao">Contato:<input type="text"></label>
+        <label for="Email">E-mail<input type="text"></label>
+        
+    </div>
+</form>
+
+
+
+
+
+    
+</body>
+</html>
